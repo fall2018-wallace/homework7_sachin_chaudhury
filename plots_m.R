@@ -30,7 +30,7 @@ murderColor_zooMap<-ggplot(df_final,aes(map_id=stateName)) +
   ggtitle("northeastern region of US based on murder rate")
 
 #showing only north-east region for above two maps-color based on murder and points based on population
-population_zooMap<-zooMap_murderColor +
+population_zooMap<-murderColor_zooMap +
  geom_point(data=df_final,aes(x=long,y=lat,size=population))+
  ggtitle("northeastern region of US based on murder rate and population")
   
