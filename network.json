@@ -37,10 +37,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "sachinchaudhury",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "add_area_center.R"
         }
     ],
-    "updated_at": "2018-10-18 05:07:38",
+    "updated_at": "2018-10-18 05:08:49",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
