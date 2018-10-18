@@ -121,10 +121,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sachinchaudhury",
             "desc": "",
-            "name": "zooming.R"
+            "name": "zooming.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "areaColor_map.png"
         }
     ],
-    "updated_at": "2018-10-18 05:30:14",
+    "updated_at": "2018-10-18 05:35:20",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
