@@ -68,6 +68,22 @@
             ],
             "source": "area_center_add.R",
             "target": "zooming.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "long_nyc",
+                    "output": "long_nyc",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lat_nyc",
+                    "output": "lat_nyc",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "zooming.R"
         }
     ],
     "nodes": [
@@ -109,6 +125,6 @@
             "name": "zooming.R"
         }
     ],
-    "updated_at": "2018-10-18 05:26:36",
+    "updated_at": "2018-10-18 05:28:54",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
