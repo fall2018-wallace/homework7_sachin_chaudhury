@@ -3,22 +3,8 @@
         "sachinchaudhury"
     ],
     "created_at": "2018-10-18 04:58:13",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
-        {
-            "name": "data.csv"
-        },
         {
             "assigned_to": "sachinchaudhury",
             "desc": "",
@@ -26,6 +12,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:02:22",
+    "updated_at": "2018-10-18 05:04:22",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
