@@ -30,12 +30,15 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-18 04:58:13",
+    "updated_at": "2018-10-18 04:59:41",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
