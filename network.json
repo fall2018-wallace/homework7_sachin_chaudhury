@@ -1,0 +1,197 @@
+{
+    "collaborators": [
+        "sachinchaudhury"
+    ],
+    "created_at": "2018-10-18 04:58:13",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_merge",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "area_center_add.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "area_center_add.R",
+            "target": "plots_m.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "us_map.R",
+            "target": "plots_m.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "area_center_add.R",
+            "target": "zooming.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "long_nyc",
+                    "output": "long_nyc",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lat_nyc",
+                    "output": "lat_nyc",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "zooming.R",
+            "target": "plots_m.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "areaColor_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "areaColor_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderColor_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "murderColor_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "population_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderColor_zooMap",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "murderColor_zooMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population_zooMap",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "population_zooMap.png"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "area_center_add.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "plots_m.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "us_map.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "",
+            "name": "zooming.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "areaColor_map.png"
+        },
+        {
+            "name": "murderColor_map.png"
+        },
+        {
+            "name": "population_map.png"
+        },
+        {
+            "name": "murderColor_zooMap.png"
+        },
+        {
+            "name": "population_zooMap.png"
+        }
+    ],
+    "updated_at": "2018-10-18 06:12:54",
+    "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
+}
