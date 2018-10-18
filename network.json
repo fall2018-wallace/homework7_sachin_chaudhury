@@ -104,6 +104,16 @@
             ],
             "source": "plots_m.R",
             "target": "murderColor_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "population_map.png"
         }
     ],
     "nodes": [
@@ -156,6 +166,6 @@
             "name": "population_map.png"
         }
     ],
-    "updated_at": "2018-10-18 06:10:30",
+    "updated_at": "2018-10-18 06:10:56",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
