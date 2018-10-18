@@ -41,12 +41,8 @@
             "desc": "",
             "name": "merge.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "add_area_center.R"
         }
     ],
-    "updated_at": "2018-10-18 05:08:49",
+    "updated_at": "2018-10-18 05:09:26",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
