@@ -88,10 +88,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sachinchaudhury",
             "desc": "",
-            "name": "us_map.R"
+            "name": "us_map.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "zooming.R"
         }
     ],
-    "updated_at": "2018-10-18 05:22:38",
+    "updated_at": "2018-10-18 05:26:03",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
