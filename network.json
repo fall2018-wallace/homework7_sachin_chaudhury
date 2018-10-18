@@ -84,6 +84,16 @@
             ],
             "source": "zooming.R",
             "target": "plots_m.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "areaColor_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_m.R",
+            "target": "areaColor_map.png"
         }
     ],
     "nodes": [
@@ -130,6 +140,6 @@
             "name": "areaColor_map.png"
         }
     ],
-    "updated_at": "2018-10-18 05:35:20",
+    "updated_at": "2018-10-18 05:35:47",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
