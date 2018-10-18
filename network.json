@@ -57,6 +57,17 @@
             ],
             "source": "us_map.R",
             "target": "plots_m.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "area_center_add.R",
+            "target": "zooming.R"
         }
     ],
     "nodes": [
@@ -98,6 +109,6 @@
             "name": "zooming.R"
         }
     ],
-    "updated_at": "2018-10-18 05:26:03",
+    "updated_at": "2018-10-18 05:26:36",
     "url": "https://github.com/fall2018-wallace/homework7_sachin_chaudhury"
 }
